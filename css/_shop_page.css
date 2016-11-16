@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+  background: #000;
+}
+
+html nav, body nav {
+  background: crimson;
+  padding: 10px;
+}
+
+html header .header_top, body header .header_top {
+  background: lightgreen;
+}
+
+.header_top {
+  background: lightgreen;
+}

@@ -1,0 +1,32 @@
+html, body{
+  height: 100%;
+  nav{
+      background: #63ccca;
+      padding: 10px;
+  }
+  header{
+      padding: 10px;
+      .header_top{
+          background: lightgreen;
+      }
+  }
+  .page_info{
+      padding: 60px;
+  }
+  .page_products{
+      padding: 500px;
+
+  }
+  .page_comment{
+      padding: 60px;
+  }
+  .page_topics{
+      padding: 60px;
+  }
+  .page_viewed{
+      padding: 40px;
+  }
+  footer{
+      padding: 100px;
+  }
+}

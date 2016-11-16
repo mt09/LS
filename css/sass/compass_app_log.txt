@@ -1,0 +1,110 @@
+2016-11-09 14:22:42    create ../css/client.css 
+2016-11-09 14:22:42    create ../css/common.css 
+2016-11-09 14:24:24    create ../css/style.css 
+2016-11-09 14:37:43     error style.scss (Line 68: File to import not found or unreadable: _common.
+Load paths:
+  /Users/erin/Documents/website/seven-2016-gt-partner/web/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2016-11-09 14:37:43 overwrite ../css/style.css 
+2016-11-09 14:38:17     error style.scss (Line 60: File to import not found or unreadable: _common.
+Load paths:
+  /Users/erin/Documents/website/seven-2016-gt-partner/web/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2016-11-09 14:38:17 overwrite ../css/style.css 
+2016-11-09 14:38:50     error style.scss (Line 61: File to import not found or unreadable: _client.
+Load paths:
+  /Users/erin/Documents/website/seven-2016-gt-partner/web/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2016-11-09 14:38:50 overwrite ../css/style.css 
+2016-11-09 14:38:50     error style.scss (Line 61: File to import not found or unreadable: _client.
+Load paths:
+  /Users/erin/Documents/website/seven-2016-gt-partner/web/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2016-11-09 14:38:50 identical ../css/style.css 
+2016-11-09 14:40:07 overwrite ../css/style.css 
+2016-11-09 14:40:10 overwrite ../css/style.css 
+2016-11-09 14:40:17 overwrite ../css/style.css 
+2016-11-09 14:41:00 overwrite ../css/style.css 
+2016-11-09 14:41:14 overwrite ../css/style.css 
+2016-11-09 14:41:16 overwrite ../css/style.css 
+2016-11-09 14:45:03 identical ../css/style.css 
+2016-11-09 14:45:12 overwrite ../css/style.css 
+2016-11-09 14:45:16 overwrite ../css/style.css 
+2016-11-09 14:47:46 overwrite ../css/style.css 
+2016-11-09 14:48:23 overwrite ../css/style.css 
+2016-11-09 14:49:26 overwrite ../css/style.css 
+2016-11-09 14:49:36 overwrite ../css/style.css 
+2016-11-09 14:49:46 overwrite ../css/style.css 
+2016-11-09 16:15:45 overwrite ../css/style.css 
+2016-11-09 16:15:48 identical ../css/style.css 
+2016-11-09 16:43:10 overwrite ../css/style.css 
+2016-11-09 16:44:02 identical ../css/style.css 
+2016-11-09 16:49:03 overwrite ../css/style.css 
+2016-11-09 16:49:36 overwrite ../css/style.css 
+2016-11-09 16:50:21 overwrite ../css/style.css 
+2016-11-09 17:27:04 overwrite ../css/style.css 
+2016-11-11 01:33:01 overwrite ../css/style.css 
+2016-11-11 01:33:08 overwrite ../css/style.css 
+2016-11-11 01:33:25 overwrite ../css/style.css 
+2016-11-12 17:21:16 overwrite ../css/style.css 
+2016-11-12 18:21:33 overwrite ../css/style.css 
+2016-11-12 18:28:11 overwrite ../css/style.css 
+2016-11-12 19:11:49 overwrite ../css/style.css 
+2016-11-12 19:12:19 overwrite ../css/style.css 
+2016-11-12 19:12:24 overwrite ../css/style.css 
+2016-11-12 19:14:45 overwrite ../css/style.css 
+2016-11-12 19:19:10 overwrite ../css/style.css 
+2016-11-13 22:28:07 overwrite ../css/style.css 
+2016-11-13 22:28:51 overwrite ../css/style.css 
+2016-11-13 22:30:08 overwrite ../css/style.css 
+2016-11-13 22:31:18 overwrite ../css/style.css 
+2016-11-13 22:32:59 overwrite ../css/style.css 
+2016-11-13 22:35:07 overwrite ../css/style.css 
+2016-11-13 22:36:34 overwrite ../css/style.css 
+2016-11-13 22:39:10 overwrite ../css/style.css 
+2016-11-13 22:40:35 overwrite ../css/style.css 
+2016-11-13 22:40:46 overwrite ../css/style.css 
+2016-11-13 22:41:03     error style.scss (Line 20 of _typeahead.scss: Invalid CSS after "...eight: 20px;rgb": expected "{", was "(109, 131, 148)")
+2016-11-13 22:41:03 overwrite ../css/style.css 
+2016-11-13 22:41:43 overwrite ../css/style.css 
+2016-11-14 02:29:19 overwrite ../css/style.css 
+2016-11-14 02:29:34 overwrite ../css/style.css 
+2016-11-14 02:30:01 overwrite ../css/style.css 
+2016-11-14 02:31:41 overwrite ../css/style.css 
+2016-11-14 02:32:08 overwrite ../css/style.css 

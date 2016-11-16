@@ -1,0 +1,40 @@
+/* scaffold */
+.site_width {
+	width: 100%;
+}
+
+.content_width {
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.bg_e2e2e2 {
+	background-color: #e2e2e2;
+}
+.bg_f7f7f7{
+    background: #f7f7f7;
+}
+
+.justify{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.shop_area{
+    padding:0 40px;
+}
+
+//media 768
+
+.shop_area{
+    padding:0 5px;
+}
+
+
+/*  product item */
+.product_item_block{
+
+}

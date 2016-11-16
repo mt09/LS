@@ -1,0 +1,16 @@
+﻿
+//hack bootstrap
+.modal-footer .btn + .btn {
+    margin-bottom: 5px;
+}
+
+.dataTable{
+    td{
+        vertical-align: middle!important;
+    }
+    .btn{
+        margin-bottom: 0px;
+    }
+}
+
+//hack custom.css

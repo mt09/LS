@@ -1,0 +1,438 @@
+.m-r-5 {
+	margin-right: 5px !important;
+}
+
+.m-r-10 {
+	margin-right: 10px !important;
+}
+
+.m-l-5 {
+	margin-left: 5px !important;
+}
+
+.m-l-10 {
+	margin-left: 10px !important;
+}
+
+.m-b-10 {
+	margin-bottom: 10px !important;
+}
+
+.m-t-24 {
+	margin-top: 24px !important;
+}
+
+.no-padding {
+	padding: 0 !important;
+}
+
+
+/* layout */
+
+// @for $percent from 1 through 100{
+//     .w-p-#{$percent} {
+//         width: #{$percent}px;
+//     }
+// }
+.w-p-5 {
+    width: 5%!important;
+}
+.w-p-15 {
+    width: 15%!important;
+}
+.w-p-20 {
+    width: 20%!important;
+}
+.w-p-25 {
+    width: 25%!important;
+}
+.w-p-30 {
+    width: 30%!important;
+}
+.w-p-40 {
+    width: 40%!important;
+}
+.w-p-50 {
+    width: 50%!important;
+}
+.w-p-80 {
+    width: 80%!important;
+}
+.w-p-90 {
+    width: 90%!important;
+}
+.w-p-100 {
+    width: 100%!important;
+}
+
+.w-100 {
+    width: 100px;
+}
+
+.w-120 {
+    width: 120px !important;
+    float: left;
+}
+
+.w-200 {
+    width: 200px !important;
+    float: left;
+}
+
+/* display */
+.d-bl{
+	display: block!important;
+}
+.d-ib {
+    display: inline-block!important;
+}
+.d-in {
+    display: inline!important;
+}
+.d-no {
+    display: none!important;
+}
+
+
+/* text */
+
+.t-center {
+    text-align: center;
+}
+
+.t-right {
+    text-align: right;
+}
+
+.t-left {
+    text-align: left;
+}
+
+@for $ls from 1 through 30 {
+    .l-s-#{$ls} {
+        letter-spacing: #{$ls}px;
+    }
+}
+
+@for $fz from 0 through 2 {
+    .font-#{$fz*5+20} {
+        font-size: #{$fz*5+20}px;
+    }
+}
+
+@for $fz from 1 through 20 {
+    .font-#{$fz*2} {
+        font-size: #{$fz*2}px;
+    }
+}
+
+.f-bold {
+    font-weight: bold;
+}
+
+
+/* color */
+
+.c-c0c0c0 {
+    color: #c0c0c0;
+}
+
+.c-blue {
+    color: blue;
+}
+
+.bg-f3f3f3 {
+    background: #f3f3f3;
+}
+
+// margin
+@for $m from 1 through 200 {
+    .m-#{$m} {
+        margin: #{$m}px;
+    }
+    .m-t-#{$m} {
+        margin-top: #{$m}px;
+    }
+    .m-b-#{$m} {
+        margin-bottom: #{$m}px;
+    }
+    .m-r-#{$m} {
+        margin-right: #{$m}px;
+    }
+    .m-l-#{$m} {
+        margin-left: #{$m}px;
+    }
+    .m-lr-#{$m} {
+        margin-right: #{$m}px;
+        margin-left: #{$m}px;
+    }
+    .m-tb-#{$m} {
+        margin-top: #{$m}px;
+        margin-bottom: #{$m}px;
+    }
+}
+
+// padding
+@for $p from 1 through 200 {
+    .p-t-#{$p} {
+        padding-top: #{$p}px;
+    }
+    .p-b-#{$p} {
+        padding-bottom: #{$p}px;
+    }
+    .p-l-#{$p} {
+        padding-left: #{$p}px;
+    }
+    .p-r-#{$p} {
+        padding-right: #{$p}px;
+    }
+    .p-lr-#{$p} {
+        padding-right: #{$p}px;
+        padding-left: #{$p}px;
+    }
+    .p-tb-#{$p} {
+        padding-top: #{$p}px;
+        padding-bottom: #{$p}px;
+    }
+    .p-#{$p} {
+        padding: #{$p}px;
+    }
+}
+
+.p-l-0 {
+    padding-left: 0;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+// border
+@for $b from 1 through 10 {
+    .b-t-#{$b} {
+        border-top: #{$b}px solid #000;
+    }
+    .b-b-#{$b} {
+        border-bottom: #{$b}px solid #000;
+    }
+    .b-l-#{$b} {
+        border-top: #{$b}px solid #000;
+    }
+    .b-r-#{$b} {
+        border-right: #{$b}px solid #000;
+    }
+    .b-lr-#{$b} {
+        border-right: #{$b}px solid #000;
+        border-left: #{$b}px solid #000;
+    }
+    .b-tb-#{$b} {
+        border-top: #{$b}px solid #000;
+        border-bottom: #{$b}px solid #000;
+    }
+}
+
+// float
+.f-l {
+    float: left;
+}
+
+.f-r {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+// pw_request, login and register, mobile_authenticate, users/coupon
+.error-message {
+    display: none;
+    letter-spacing: 6px;
+    color: crimson;
+    background-color: #e59694;
+    // border-color: #adadad;
+    width: 100%;
+}
+
+.error-message:hover {
+    color: crimson;
+}
+
+.page-title {
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid black;
+    font-family: 'Malayalam MN', 'Heiti TC', -apple-system, 'Microsoft JhengHei', Helvetica, Arial, sans-serif;
+}
+
+.table-noborder {
+    >tbody>tr>th,
+    >tfoot>tr>td,
+    >tfoot>tr>th,
+    >thead>tr>td,
+    >thead>tr>th,
+    >tbody>tr>td {
+        border: 0;
+    }
+}
+
+.fulljustify {
+    text-align: justify;
+    text-justify: inter-ideograph;
+    -ms-text-justify: inter-ideograph;
+    -moz-text-align-last: justify;
+    -webkit-text-align-last: justify;
+    &:after {
+        content: '';
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+.btn-fb {
+    color: white;
+    background-color: #3d5b95;
+    border-color: #3d5b95;
+}
+
+.opt-form {
+    span.form-control {
+        // float: none;
+    }
+    .form-control,
+    .input-group-btn>.btn {
+        border-radius: 0;
+        border: 1px solid black;
+    }
+    .opt-btn {
+        border: 1px solid black;
+        background-color: black;
+        color: white;
+    }
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background-repeat: no-repeat;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAYAAABSgIzaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDZFNDEwNjlGNzFEMTFFMkJEQ0VDRTM1N0RCMzMyMkIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDZFNDEwNkFGNzFEMTFFMkJEQ0VDRTM1N0RCMzMyMkIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NkU0MTA2N0Y3MUQxMUUyQkRDRUNFMzU3REIzMzIyQiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo0NkU0MTA2OEY3MUQxMUUyQkRDRUNFMzU3REIzMzIyQiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PuGsgwQAAAA5SURBVHjaYvz//z8DOYCJgUxAf42MQIzTk0D/M+KzkRGPoQSdykiKJrBGpOhgJFYTWNEIiEeAAAMAzNENEOH+do8AAAAASUVORK5CYII=);
+        background-position: right 50%;
+    }
+    .opt-input-group {
+        margin-bottom: 30px;
+    }
+    .input-group[class*=col-] {
+        float: left;
+    }
+    .m-lr-0 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .opt-validated {
+        line-height: 34px;
+    }
+    .opt-danger {
+        color: #6a6a6a;
+        background-color: #ffc2c2;
+        border: 0;
+        letter-spacing: 0;
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+    .opt-danger-email{
+        color: #6a6a6a;
+        background-color: #ffc2c2;
+        border: 0;
+        letter-spacing: 0;
+        margin-left: 13px;
+        margin-right: 13px;
+    }
+    .overflow-scroll {
+        overflow-y: scroll;
+    }
+}
+@media screen and (max-width: 768px) {
+    .opt-danger{
+        margin-left: 27px!important;
+        margin-right: 27px!important;
+    }
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+    background-color: #fff;
+}
+
+.opt-sidebar {}
+
+.opt-main-content {
+    margin-top: 50px;
+}
+
+.sidebar-item {
+    &.active {
+        >a {
+            color: black;
+        }
+    }
+    a {
+        color: #727171;
+        font-size: 1.8rem;
+    }
+    .fulljustify {
+        width: 110px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page-title {
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+// 優惠說明 /users
+.pink-border {
+    border: 6px solid #ffd1c3;
+    border-radius: 10px;
+}
+
+.c-pink {
+    background-color: #ffd1c3;
+}
+
+@for $fz from 0 through 2 {
+    .font-#{$fz*5+20} {
+        font-size: #{$fz*5+20}px;
+    }
+}
+
+@for $lh from 1 through 10 {
+    .l-h-#{$lh} {
+        line-height: #{$lh} !important;
+    }
+}
+
+@for $br from 1 through 20 {
+    .b-r-#{$br} {
+        border-radius: #{$br}px;
+    }
+}
+
+// 垂直置中
+.v-t {
+    vertical-align: top !important;
+}
+
+.v-m {
+    vertical-align: middle !important;
+}
+
+.v-b {
+    vertical-align: bottom !important;
+}
+
+// overflow: 滾動
+.overflow-scroll {
+    overflow-y: scroll;
+}
