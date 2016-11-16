@@ -144,6 +144,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 5% !important;
 }
 
+.w-p-10 {
+  width: 10% !important;
+}
+
 .w-p-15 {
   width: 15% !important;
 }
@@ -13041,6 +13045,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background: #f7f7f7;
 }
 
+.cl_55C1BF {
+  color: #55C1BF;
+}
+
 .justify {
   display: flex;
   align-items: center;
@@ -13068,4 +13076,58 @@ html header, body header {
 }
 html header .header_top, body header .header_top {
   background: lightgreen;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#mainPage {
+  transition: margin-left .5s;
+}
+
+@media screen and (max-width: 550px) {
+  .mb_d_no {
+    display: none !important;
+  }
+
+  .mb_d_ib {
+    display: inline-block !important;
+  }
 }
