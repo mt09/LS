@@ -13069,21 +13069,3 @@ html header, body header {
 html header .header_top, body header .header_top {
   background: lightgreen;
 }
-html .page_info, body .page_info {
-  padding: 60px;
-}
-html .page_products, body .page_products {
-  padding: 500px;
-}
-html .page_comment, body .page_comment {
-  padding: 60px;
-}
-html .page_topics, body .page_topics {
-  padding: 60px;
-}
-html .page_viewed, body .page_viewed {
-  padding: 40px;
-}
-html footer, body footer {
-  padding: 100px;
-}
