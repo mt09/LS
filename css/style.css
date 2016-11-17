@@ -144,8 +144,32 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   width: 40% !important;
 }
 
+.w-p-45 {
+  width: 45% !important;
+}
+
 .w-p-50 {
   width: 50% !important;
+}
+
+.w-p-55 {
+  width: 55% !important;
+}
+
+.w-p-60 {
+  width: 60% !important;
+}
+
+.w-p-65 {
+  width: 65% !important;
+}
+
+.w-p-70 {
+  width: 70% !important;
+}
+
+.w-p-75 {
+  width: 75% !important;
 }
 
 .w-p-80 {
@@ -13232,6 +13256,10 @@ html header, body header {
 html header .header_top, body header .header_top {
   background: lightgreen;
 }
+html .page_slider .bx-wrapper .bx-caption, body .page_slider .bx-wrapper .bx-caption {
+  font-size: 24px;
+  background: rgba(80, 80, 80, 0);
+}
 html .page_products, body .page_products {
   height: 100%;
 }
@@ -13243,6 +13271,21 @@ html .page_comment .avg_score, body .page_comment .avg_score {
 }
 html .page_topics .b_eaeaea, body .page_topics .b_eaeaea {
   border: 1px solid #eaeaea;
+}
+html footer .customer_service, body footer .customer_service {
+  margin-top: -52px;
+}
+html footer .breaking_news, body footer .breaking_news {
+  margin-top: -77px;
+}
+html footer .get_discount, body footer .get_discount {
+  width: 24%;
+  margin-top: -80px;
+}
+html footer .get_discount .btn_subscribe, body footer .get_discount .btn_subscribe {
+  position: relative;
+  right: 4px;
+  top: -2px;
 }
 
 .sidenav {

@@ -63,21 +63,12 @@
             <section class="site_width w-p-100 page_slider" role="廣告輪播">
                 <!-- slider js -->
                 <ul class='bxslider'>
-                    <li><img src="slider.png" alt="無圖片" title="slider" class="w-p-100"></li>
-                    <li><img src="slider.png" alt="無圖片" title="slider" class="w-p-100"></li>
-                    <li><img src="slider.png" alt="無圖片" title="slider" class="w-p-100"></li>
-                    <li><img src="slider.png" alt="無圖片" title="slider" class="w-p-100"></li>
-                    <li><img src="slider.png" alt="無圖片" title="slider" class="w-p-100"></li>
+                    <li><img src="slider.png" alt="無圖片" title="Sysmax TOP鍵盤文具收納架，鍵盤、文具輕鬆收納，節省桌面空間"  class="w-p-100"></li>
+                    <li><img src="slider.png" alt="無圖片" title="Sysmax TOP鍵盤文具收納架，鍵盤、文具輕鬆收納，節省桌面空間"  class="w-p-100"></li>
+                    <li><img src="slider.png" alt="無圖片" title="Sysmax TOP鍵盤文具收納架，鍵盤、文具輕鬆收納，節省桌面空間"  class="w-p-100"></li>
+                    <li><img src="slider.png" alt="無圖片" title="Sysmax TOP鍵盤文具收納架，鍵盤、文具輕鬆收納，節省桌面空間"  class="w-p-100"></li>
+                    <li><img src="slider.png" alt="無圖片" title="Sysmax TOP鍵盤文具收納架，鍵盤、文具輕鬆收納，節省桌面空間"  class="w-p-100"></li>
                 </ul>
-
-                <span >
-                    <p>
-                        Sysmax TOP鍵盤文具收納架
-                    </p>
-                    <p>
-                        鍵盤、文具輕鬆收納，節省桌面空間
-                    </p>
-                </span>
             </section>
 
             <section class="site_width page_info bg_e2e2e2 t-center" role="宣傳區塊">
@@ -260,7 +251,7 @@
             <footer class="site_width bg_f7f7f7" id="footer">
                 <div class="content_width ">
                     <div class="d-fl">
-                        <div>
+                        <div class="customer_service">
                           <h4>客服中心</h4>
                           <a href="#" class="d-bl">常見問與答</a>
                           <a href="#" class="d-bl">預購商品生產進度</a>
@@ -275,21 +266,23 @@
                           <a href="#" class="d-bl">旅行外出</a>
                           <a href="#" class="d-bl">嚐鮮預購</a>
                         </div>
-                        <div>
-                          <h4>最新消息</h4>
+
+                        <div class="breaking_news">
+                          <h4 >最新消息</h4>
                           <a href="#">
                               <img src='png_fb.png' />
                           </a>
                         </div>
-                        <div>
-                          <h4>取得 Limit Style 優惠</h4>
+
+                        <div class="get_discount">
+                          <h4 class="">取得 Limit Style 優惠</h4>
                           <div class="">
-                              <input type="text" name="search" placeholder="輸入 email 訂閱獨家優惠" class="form-control w-p-80 d-ib">
-                              <a href="#" class="btn bg_63CCCA cl_fff w-p-30 d-ib">訂閱</a>
+                              <input type="text" name="search" placeholder="輸入 email 訂閱獨家優惠" class="form-control w-p-65 d-ib">
+                              <a href="#" class="btn bg_63CCCA cl_fff w-p-25 d-ib btn_subscribe">訂閱</a>
                           </div>
                         </div>
                     </div>
-                    <div class="d-bl w-p-100 cl_f7f7f7">
+                    <div class="d-bl w-p-100 cl_f7f7f7 m-t-50">
                         <p>
                             © 2016 LimitStyle Inc. All Rights Reserved.    LimitStyle 由里米斯股份有限公司所經營
                             <span class="d-bl"><a href="#" class="d-ib">服務條款</a> I <a href="#" class="d-ib">隱私權條款</a></span>
@@ -299,12 +292,12 @@
             </footer>
         </div>
     </body>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <!-- <link href="https://rawgit.com/stevenwanderski/bxslider-4/master/dist/jquery.bxslider.css" rel="stylesheet" /> -->
-    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://rawgit.com/stevenwanderski/bxslider-4/master/dist/jquery.bxslider.css" rel="stylesheet" />
+    <!-- <link href="css/jquery.bxslider.css" rel="stylesheet" />   -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <!-- <script src="https://rawgit.com/stevenwanderski/bxslider-4/master/dist/jquery.bxslider.min.js"></script> -->
-    <script src="css/jquery.bxslider.min.js"></script>
+        <script src="https://rawgit.com/stevenwanderski/bxslider-4/master/dist/jquery.bxslider.min.js"></script>
+    <!-- <script src="css/jquery.bxslider.min.js"></script> -->
     <script>
         function openNav() {
             document.getElementById("pageSidenav").style.width = "250px";
@@ -320,7 +313,9 @@
     </script>
     <script>
         $(document).ready(function(){
-            $('.bxslider').bxSlider();
+            $('.bxslider').bxSlider({
+                captions: true
+            });
         });
     </script>
 </html>

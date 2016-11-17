@@ -16,6 +16,14 @@ html, body{
     //   }
 
   }
+
+  .page_slider{
+        .bx-wrapper .bx-caption{
+            font-size: 24px;
+            background: rgba(80, 80, 80, 0);
+        }
+  }
+
   .page_info{
 
   }
@@ -39,7 +47,21 @@ html, body{
 
   }
   footer{
-
+      .customer_service{
+          margin-top: -52px;
+      }
+      .breaking_news{
+          margin-top: -77px;
+      }
+      .get_discount{
+          width: 24%;
+          margin-top: -80px;
+          .btn_subscribe{
+              position: relative;
+              right: 4px;
+              top: -2px;
+          }
+      }
   }
 }
 
