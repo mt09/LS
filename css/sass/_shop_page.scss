@@ -29,6 +29,21 @@ html, body{
   }
   .page_products{
       height: 100%;
+      a{
+          color: #000;
+      }
+      .product_link_hover:hover{
+          color: #63CCCA;
+      }
+      .btn_buy{
+          border-radius: 16px;
+          border: 1px solid #63CCCA;
+          color: #63CCCA;
+          padding: 4px 12px;
+      }
+      .b_eaeaea{
+          border: 1px solid #eaeaea;
+      }
   }
   .page_comment{
         .avg_score{

@@ -89,6 +89,11 @@
 }
 .d-fl{
     display:flex;
+    flex-wrap: wrap;
+	justify-content: center;
+}
+.d-fl-justify{
+    display:flex;
     align-items:center;
     justify-content:space-between;
 }

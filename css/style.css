@@ -217,6 +217,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 .d-fl {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.d-fl-justify {
+  display: flex;
   align-items: center;
   justify-content: space-between;
 }
@@ -13234,6 +13240,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   color: #95989A;
 }
 
+.cl_F16EAA {
+  color: #F16EAA;
+}
+
 .shop_area {
   padding: 0 40px;
 }
@@ -13262,6 +13272,21 @@ html .page_slider .bx-wrapper .bx-caption, body .page_slider .bx-wrapper .bx-cap
 }
 html .page_products, body .page_products {
   height: 100%;
+}
+html .page_products a, body .page_products a {
+  color: #000;
+}
+html .page_products .product_link_hover:hover, body .page_products .product_link_hover:hover {
+  color: #63CCCA;
+}
+html .page_products .btn_buy, body .page_products .btn_buy {
+  border-radius: 16px;
+  border: 1px solid #63CCCA;
+  color: #63CCCA;
+  padding: 4px 12px;
+}
+html .page_products .b_eaeaea, body .page_products .b_eaeaea {
+  border: 1px solid #eaeaea;
 }
 html .page_comment .avg_score, body .page_comment .avg_score {
   border-top: 1px solid #F16EAA;
