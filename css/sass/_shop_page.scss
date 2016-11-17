@@ -9,13 +9,18 @@ html, body{
       .header_top{
           background: lightgreen;
       }
+    //   .header_set_position{
+    //       position: relative;;;
+    //       right: 0;
+    //       top: 0;
+    //   }
+
   }
   .page_info{
 
   }
   .page_products{
-
-
+      height: 100%;
   }
   .page_comment{
 
@@ -29,12 +34,6 @@ html, body{
   footer{
 
   }
-}
-
-.flex{
-    display:flex;
-    align-items:center;
-    justify-content:center;
 }
 
 // push content
@@ -85,5 +84,8 @@ html, body{
     }
     .mb_d_ib{
         display: inline-block!important;
+    }
+    .mb_d_bl{
+        display: block!important;
     }
 }

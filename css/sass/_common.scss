@@ -1,32 +1,3 @@
-.m-r-5 {
-	margin-right: 5px !important;
-}
-
-.m-r-10 {
-	margin-right: 10px !important;
-}
-
-.m-l-5 {
-	margin-left: 5px !important;
-}
-
-.m-l-10 {
-	margin-left: 10px !important;
-}
-
-.m-b-10 {
-	margin-bottom: 10px !important;
-}
-
-.m-t-24 {
-	margin-top: 24px !important;
-}
-
-.no-padding {
-	padding: 0 !important;
-}
-
-
 /* layout */
 
 // @for $percent from 1 through 100{
@@ -51,6 +22,9 @@
 }
 .w-p-30 {
     width: 30%!important;
+}
+.w-p-35 {
+    width: 35%!important;
 }
 .w-p-40 {
     width: 40%!important;
@@ -94,6 +68,11 @@
 }
 .d-no {
     display: none!important;
+}
+.d-fl{
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 
@@ -176,6 +155,9 @@
 }
 
 // padding
+.no-padding {
+	padding: 0 !important;
+}
 @for $p from 1 through 200 {
     .p-t-#{$p} {
         padding-top: #{$p}px;
@@ -219,7 +201,7 @@
         border-bottom: #{$b}px solid #000;
     }
     .b-l-#{$b} {
-        border-top: #{$b}px solid #000;
+        border-left: #{$b}px solid #000;
     }
     .b-r-#{$b} {
         border-right: #{$b}px solid #000;
@@ -394,16 +376,6 @@
     }
 }
 
-// 優惠說明 /users
-.pink-border {
-    border: 6px solid #ffd1c3;
-    border-radius: 10px;
-}
-
-.c-pink {
-    background-color: #ffd1c3;
-}
-
 @for $fz from 0 through 2 {
     .font-#{$fz*5+20} {
         font-size: #{$fz*5+20}px;
@@ -434,6 +406,22 @@
 .v-b {
     vertical-align: bottom !important;
 }
+
+// position
+.p-re{
+	position: relative;;
+}
+@for $tt from 1 through 20 {
+    .top-#{$tt} {
+        top: #{$tt}px;
+    }
+}
+@for $tt from 1 through 20 {
+    .top-#{$tt} {
+        top: #{$tt}px;
+    }
+}
+
 
 // overflow: 滾動
 .overflow-scroll {
