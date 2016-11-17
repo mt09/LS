@@ -72,7 +72,7 @@
 .d-fl{
     display:flex;
     align-items:center;
-    justify-content:center;
+    justify-content:space-between;
 }
 
 
@@ -102,9 +102,9 @@
     }
 }
 
-@for $fz from 1 through 20 {
-    .font-#{$fz*2} {
-        font-size: #{$fz*2}px;
+@for $fz from 1 through 50 {
+    .font-#{$fz} {
+        font-size: #{$fz}px;
     }
 }
 
@@ -194,6 +194,9 @@
 
 // border
 @for $b from 1 through 10 {
+    .b-#{$b} {
+        border: #{$b}px solid #000;
+    }
     .b-t-#{$b} {
         border-top: #{$b}px solid #000;
     }
@@ -407,23 +410,11 @@
     vertical-align: bottom !important;
 }
 
-// position
-.p-re{
-	position: relative;;
-}
-@for $tt from 1 through 20 {
-    .top-#{$tt} {
-        top: #{$tt}px;
-    }
-}
-@for $tt from 1 through 20 {
-    .top-#{$tt} {
-        top: #{$tt}px;
-    }
-}
-
 
 // overflow: 滾動
-.overflow-scroll {
+.overflow-x {
+    overflow-x: scroll;
+}
+.overflow-y {
     overflow-y: scroll;
 }

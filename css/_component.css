@@ -18,12 +18,28 @@
   background: #f7f7f7;
 }
 
-.bd_fff {
+.bg_fff {
   background: #fff;
+}
+
+.bg_63CCCA {
+  background: #63CCCA;
+}
+
+.cl_fff {
+  color: #fff;
 }
 
 .cl_55C1BF {
   color: #55C1BF;
+}
+
+.cl_F16EAA {
+  color: #F16EAA;
+}
+
+.cl_95989A {
+  color: #95989A;
 }
 
 .shop_area {
