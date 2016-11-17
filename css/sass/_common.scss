@@ -92,10 +92,15 @@
     flex-wrap: wrap;
 	justify-content: center;
 }
-.d-fl-justify{
+.d-fl-ai{
     display:flex;
     align-items:center;
     justify-content:space-between;
+}
+.d-fl-sb{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 

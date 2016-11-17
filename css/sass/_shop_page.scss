@@ -32,7 +32,14 @@ html, body{
       a{
           color: #000;
       }
-      .product_link_hover:hover{
+      .product_link{
+          width: 35%;
+          display: block;
+          border-bottom: 1px solid #000;
+          padding-bottom: 5px;
+          padding-left: 5px;
+      }
+      .product_link:hover{
           color: #63CCCA;
       }
       .btn_buy{
@@ -42,20 +49,45 @@ html, body{
           padding: 4px 12px;
       }
       .b_eaeaea{
-          border: 1px solid #eaeaea;
+          border: 1px solid #000;
+      }
+      .product_item{
+          margin: 10px;
+      }
+      .product_preorder{
+          margin-right: 468px;
+          margin-top: 50px;
+      }
+      .link_more{
+          margin-right: 50px;
+          color: #7E7E7E!important
       }
   }
   .page_comment{
         .avg_score{
             border-top: 1px solid #F16EAA;
             border-bottom: 1px solid #F16EAA;
-            padding-top: 20px;
-            padding-bottom: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 60%;
         }
   }
   .page_topics{
       .b_eaeaea{
           border: 1px solid #eaeaea;
+      }
+      .topic_title {
+          color: #95989A;
+          padding-bottom: 10px;
+          border-bottom: 1px solid #000;
+          margin: 20px 20px 0 20px;
+      }
+      .topic_link{
+          background: #63ccca;
+          color: #fff;
+          width: 80%;
+          margin-left: 30px;
+          margin-bottom: 20px;
       }
   }
   .page_viewed{

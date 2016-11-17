@@ -221,9 +221,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   justify-content: center;
 }
 
-.d-fl-justify {
+.d-fl-ai {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.d-fl-sb {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -13244,6 +13250,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   color: #F16EAA;
 }
 
+.cl_95989A {
+  color: #95989A;
+}
+
+.cl_7E7E7E {
+  color: #7E7E7E;
+}
+
 .shop_area {
   padding: 0 40px;
 }
@@ -13276,7 +13290,14 @@ html .page_products, body .page_products {
 html .page_products a, body .page_products a {
   color: #000;
 }
-html .page_products .product_link_hover:hover, body .page_products .product_link_hover:hover {
+html .page_products .product_link, body .page_products .product_link {
+  width: 35%;
+  display: block;
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+html .page_products .product_link:hover, body .page_products .product_link:hover {
   color: #63CCCA;
 }
 html .page_products .btn_buy, body .page_products .btn_buy {
@@ -13286,16 +13307,41 @@ html .page_products .btn_buy, body .page_products .btn_buy {
   padding: 4px 12px;
 }
 html .page_products .b_eaeaea, body .page_products .b_eaeaea {
-  border: 1px solid #eaeaea;
+  border: 1px solid #000;
+}
+html .page_products .product_item, body .page_products .product_item {
+  margin: 10px;
+}
+html .page_products .product_preorder, body .page_products .product_preorder {
+  margin-right: 468px;
+  margin-top: 50px;
+}
+html .page_products .link_more, body .page_products .link_more {
+  margin-right: 50px;
+  color: #7E7E7E !important;
 }
 html .page_comment .avg_score, body .page_comment .avg_score {
   border-top: 1px solid #F16EAA;
   border-bottom: 1px solid #F16EAA;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 60%;
 }
 html .page_topics .b_eaeaea, body .page_topics .b_eaeaea {
   border: 1px solid #eaeaea;
+}
+html .page_topics .topic_title, body .page_topics .topic_title {
+  color: #95989A;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000;
+  margin: 20px 20px 0 20px;
+}
+html .page_topics .topic_link, body .page_topics .topic_link {
+  background: #63ccca;
+  color: #fff;
+  width: 80%;
+  margin-left: 30px;
+  margin-bottom: 20px;
 }
 html footer .customer_service, body footer .customer_service {
   margin-top: -52px;
