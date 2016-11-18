@@ -13366,6 +13366,11 @@ html .page_topics .topics_recommend, body .page_topics .topics_recommend {
   text-align: center;
   margin-right: 20px;
 }
+html footer, body footer {
+  width: 100%;
+  background: #f7f7f7;
+  float: right;
+}
 
 .sidenav {
   height: 100%;

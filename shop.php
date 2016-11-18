@@ -472,13 +472,13 @@
                 </div>
             </section>
 
-            <footer class="site_width bg_f7f7f7" id="footer">
-                <div class="d-bl w-p-100 cl_f7f7f7 m-t-50 ">
-                    <p class="m-l-760">
+            <footer class="site_width" id="footer">
+                <!-- <div class="d-bl w-p-100 cl_f7f7f7 m-t-50 "> -->
+                    <div class="pull-right">
                         © 2016 LimitStyle Inc. All Rights Reserved.    LimitStyle 由里米斯股份有限公司所經營
                         <span class="d-bl"><a href="#" class="d-ib">服務條款</a> I <a href="#" class="d-ib">隱私權條款</a></span>
-                    </p>
-                </div>
+                    </div>
+                <!-- </div> -->
             </footer>
         </div>
     </body>
