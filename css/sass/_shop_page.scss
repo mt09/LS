@@ -94,23 +94,26 @@ html, body{
 
   }
   footer{
-      .customer_service{
-          margin-top: -52px;
-      }
-      .breaking_news{
-          margin-top: -77px;
-      }
-      .get_discount{
-          width: 24%;
-          margin-top: -80px;
-          .btn_subscribe{
-              position: relative;
-              right: 4px;
-              top: -2px;
-          }
-      }
+    //   .customer_service{
+    //       margin-top: -52px;
+    //   }
+    //   .breaking_news{
+    //       margin-top: -77px;
+    //   }
+    //   .get_discount{
+    //       width: 24%;
+    //       margin-top: -80px;
+    //       .btn_subscribe{
+    //           position: relative;
+    //           right: 4px;
+    //           top: -2px;
+    //       }
+    //   }
       .m-l-760{
           margin-left: 760px;
+      }
+      .mb_center{
+          text-align: center;
       }
   }
 }
@@ -157,7 +160,7 @@ html, body{
 
 
 // mobile
-@media screen and (max-width:550px) {
+@media screen and (max-width:450px) {
     .mb_d_no{
         display: none!important;
     }
@@ -166,5 +169,11 @@ html, body{
     }
     .mb_d_bl{
         display: block!important;
+    }
+    footer{
+        .d-fl-ai {
+            display: block;
+        }
+
     }
 }

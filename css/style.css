@@ -13343,23 +13343,11 @@ html .page_topics .topic_link, body .page_topics .topic_link {
   margin-left: 30px;
   margin-bottom: 20px;
 }
-html footer .customer_service, body footer .customer_service {
-  margin-top: -52px;
-}
-html footer .breaking_news, body footer .breaking_news {
-  margin-top: -77px;
-}
-html footer .get_discount, body footer .get_discount {
-  width: 24%;
-  margin-top: -80px;
-}
-html footer .get_discount .btn_subscribe, body footer .get_discount .btn_subscribe {
-  position: relative;
-  right: 4px;
-  top: -2px;
-}
 html footer .m-l-760, body footer .m-l-760 {
   margin-left: 760px;
+}
+html footer .mb_center, body footer .mb_center {
+  text-align: center;
 }
 
 .sidenav {
@@ -13400,7 +13388,7 @@ html footer .m-l-760, body footer .m-l-760 {
   transition: margin-left .5s;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 450px) {
   .mb_d_no {
     display: none !important;
   }
@@ -13411,5 +13399,9 @@ html footer .m-l-760, body footer .m-l-760 {
 
   .mb_d_bl {
     display: block !important;
+  }
+
+  footer .d-fl-ai {
+    display: block;
   }
 }
