@@ -33,49 +33,46 @@ html, body{
           color: #000;
       }
       .product_sidebar{
-        //   height: 100%;
-        //   float: left;
-        //   width: 250px;
+          width: 200px;
           margin-left: 30px;
           float: left;
+          .sidebar_list{
+              .sidebar_item{
+                  .catrgory_link{
+                      width: 135px;
+                      display: block;
+                      border-bottom: 1px solid #000;
+                      padding-bottom: 5px;
+                      padding-left: 5px;
+                  }
+                  .catrgory_link:hover{
+                      color: #63CCCA;
+                  }
+              }
+          }
+
       }
       .product_cool_design{
-        //   width: 100%;
-            // float: right;
+          width: 100%;
         margin-top: 40px;
         padding-right: 10px;
-        padding-left: 10px;
+        padding-left: 230px;
+        .product_list{
+            width: 100%;
+
+        }
+        .link_more{
+            margin-right: 50px;
+            color: #7E7E7E!important
+        }
+
       }
-      .product_link{
-          width: 35%;
-          display: block;
-          border-bottom: 1px solid #000;
-          padding-bottom: 5px;
-          padding-left: 5px;
-      }
-      .product_link:hover{
-          color: #63CCCA;
-      }
-      .btn_buy{
-          border-radius: 16px;
-          border: 1px solid #63CCCA;
-          color: #63CCCA;
-          padding: 4px 12px;
-      }
-      .b_eaeaea{
-          border: 1px solid #eaeaea;
-      }
-      .product_item{
-          margin: 6px;
-      }
+
     //   .product_preorder{
     //       margin-right: 468px;
     //       margin-top: 50px;
     //   }
-      .link_more{
-          margin-right: 50px;
-          color: #7E7E7E!important
-      }
+
   }
   .page_comment{
         .avg_score{
@@ -129,12 +126,7 @@ html, body{
     //           top: -2px;
     //       }
     //   }
-      .m-l-760{
-          margin-left: 760px;
-      }
-      .mb_center{
-          text-align: center;
-      }
+
   }
 }
 
@@ -198,7 +190,10 @@ html, body{
             margin-bottom: 40px;
         }
     }
-    footer{
+    .page_bottom{
+        .mb_center{
+            text-align: center;
+        }
         .customer_service{
             line-height: 35px;
             margin-bottom: 20px;

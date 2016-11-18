@@ -22,13 +22,34 @@
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
                 <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
             </a>
-            <a>option1</a>
-            <a>option2</a>
-            <a>option3</a>
-            <a>option4</a>
+            <ul>
+                <li>
+                    <a>option1</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a>option1</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a>option1</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a>option1</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a>option1</a>
+                </li>
+            </ul>
         </div>
         <!--  -->
-        <div id="mainPage" class="mb_d_ib">
+        <div id="mainPage" class="">
             <nav class="mb_d_no">
             </nav>
 
@@ -88,7 +109,7 @@
                 <img src="rightpart.png" class="d-ib w-p-20"  />
             </section>
 
-            <section class="d-no mb_d_bl m-tb-25 t-center">
+            <section class="d-no mb_d_bl m-tb-25 t-center" role="mobile only">
                 <p class="mb_d_b">
                     特別嚴選
                     <img src="limitstyle_icon.png" class="w-p-10" />
@@ -100,35 +121,35 @@
 
             <section class="site_width page_products row">
                 <div class="content_width">
-                    <div class="product_sidebar mb_d_no col-md-3">
+                    <div class="product_sidebar mb_d_no">
                         <h5 class="sidebar_title font-26 ">所有商品</h2>
                         <ul class="sidebar_list">
                             <li class="sidebar_item">
-                                <a href="#" class=" product_link">居家用品</a>
+                                <a href="#" class=" category_link">居家用品</a>
                             </li>
                             <li class="sidebar_item">
-                                <a href="#" class="product_link m-t-10">辦公文具</a>
+                                <a href="#" class="category_link m-t-10">辦公文具</a>
                             </li>
                             <li class="sidebar_item">
-                                <a href="#" class="product_link m-t-10">3C周邊</a>
+                                <a href="#" class="category_link m-t-10">3C周邊</a>
                             </li>
                             <li class="sidebar_item">
-                                <a href="#" class="product_link m-t-10">旅行外出</a>
+                                <a href="#" class="category_link m-t-10">旅行外出</a>
                             </li>
                             <li class="sidebar_item">
-                                <a href="#" class="product_link m-t-10">個人配件</a>
+                                <a href="#" class="category_link m-t-10">個人配件</a>
                             </li>
                             <li class="sidebar_item">
-                                <a href="#" class="product_link m-t-10">主題推薦</a>
+                                <a href="#" class="category_link m-t-10">主題推薦</a>
                             </li>
                             <li class="sidebar_item">
-                                <a href="#" class="product_link m-t-10">嚐鮮預購</a>
+                                <a href="#" class="category_link m-t-10">嚐鮮預購</a>
                             </li>
                             <li class="sidebar_item">
-                                <a href="#" class="product_link m-t-10">主題推薦</a>
+                                <a href="#" class="category_link m-t-10">主題推薦</a>
                             </li>
                             <li class="sidebar_item">
-                                <a href="#" class="product_link m-t-10">新機專區</a>
+                                <a href="#" class="category_link m-t-10">新機專區</a>
                             </li>
                         </ul>
 
@@ -144,175 +165,46 @@
                         </table>
                     </div>
 
-                    <div class="product_cool_design col-md-8">
-                        <p class="d-ib font-26 m-l-25">熱銷好設計</p>
-                        <img src="limitstyle_icon.png" class="w-p-5 d-ib" />
-                        <p class="d-ib font-20">
-                            大家都說好用的必敗好商品！
-                        </p>
-
-                        <div class="m-r-5 w-p-100">
-                            <div class="w-p-25 d-ib b_eaeaea product_item">
-                                <img src="png_recommend.png" class="w-p-100" />
-                                <p class="font-21 m-l-10 ">
-                                    兩用門後掛架
-                                </p>
-                                <p class="font-14 cl_95989A m-l-10">
-                                    靈活運用衣櫃門板空間增加5倍收納量
-                                </p>
-                                <div class="w-p-100 p-lr-10">
-                                    <a href="#" class="btn_buy font-14">
-                                        直購品
-                                    </a>
-                                    <p class="cl_F16EAA pull-right m-b-5 font-18">
-                                        TWD 199
+                    <div class="product_cool_design">
+                        <div class="product_list_title">
+                            <p class="d-ib font-26 m-l-25">熱銷好設計</p>
+                            <img src="limitstyle_icon.png" class="w-p-5 d-ib" />
+                            <p class="d-ib font-20">
+                                大家都說好用的必敗好商品！
+                            </p>
+                        </div>
+                        <div class="product_list">
+                            <?php
+                            for($i=1; $i<=9; $i++){
+                             ?>
+                            <div class="product_item_block">
+                                <div class="product_item">
+                                    <img src="png_recommend.png" class="w-p-100" />
+                                    <p class="font-21 m-l-10 ">
+                                        兩用門後掛架
                                     </p>
+                                    <p class="font-14 cl_95989A m-l-10">
+                                        靈活運用衣櫃門板空間增加5倍收納量
+                                    </p>
+                                    <div class="w-p-100 p-lr-10">
+                                        <a href="#" class="btn_buy font-14">
+                                            直購品
+                                        </a>
+                                        <p class="cl_F16EAA pull-right m-b-5 font-18">
+                                            TWD 199
+                                        </p>
+                                        <div class="clear">
+
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
+                            <?php }?>
+                            <div class="clear">
 
-                            <div class="w-p-25 d-ib b_eaeaea product_item">
-                                <img src="png_recommend.png" class="w-p-100" />
-                                <p class="font-21 m-l-10 ">
-                                    兩用門後掛架
-                                </p>
-                                <p class="font-14 cl_95989A m-l-10">
-                                    靈活運用衣櫃門板空間增加5倍收納量
-                                </p>
-                                <div class="w-p-100 p-lr-10">
-                                    <a href="#" class="btn_buy font-14">
-                                        直購品
-                                    </a>
-                                    <p class="cl_F16EAA pull-right m-b-5 font-18">
-                                        TWD 199
-                                    </p>
-                                </div>
                             </div>
-
-                            <div class="w-p-25 d-ib b_eaeaea product_item">
-                                <img src="png_recommend.png" class="w-p-100" />
-                                <p class="font-21 m-l-10 ">
-                                    兩用門後掛架
-                                </p>
-                                <p class="font-14 cl_95989A m-l-10">
-                                    靈活運用衣櫃門板空間增加5倍收納量
-                                </p>
-                                <div class="w-p-100 p-lr-10">
-                                    <a href="#" class="btn_buy font-14">
-                                        直購品
-                                    </a>
-                                    <p class="cl_F16EAA pull-right m-b-5 font-18">
-                                        TWD 199
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="w-p-25 d-ib b_eaeaea product_item">
-                                <img src="png_recommend.png" class="w-p-100" />
-                                <p class="font-21 m-l-10 ">
-                                    兩用門後掛架
-                                </p>
-                                <p class="font-14 cl_95989A m-l-10">
-                                    靈活運用衣櫃門板空間增加5倍收納量
-                                </p>
-                                <div class="w-p-100 p-lr-10">
-                                    <a href="#" class="btn_buy font-14">
-                                        直購品
-                                    </a>
-                                    <p class="cl_F16EAA pull-right m-b-5 font-18">
-                                        TWD 199
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="w-p-25 d-ib b_eaeaea product_item">
-                                <img src="png_recommend.png" class="w-p-100" />
-                                <p class="font-21 m-l-10 ">
-                                    兩用門後掛架
-                                </p>
-                                <p class="font-14 cl_95989A m-l-10">
-                                    靈活運用衣櫃門板空間增加5倍收納量
-                                </p>
-                                <div class="w-p-100 p-lr-10">
-                                    <a href="#" class="btn_buy font-14">
-                                        直購品
-                                    </a>
-                                    <p class="cl_F16EAA pull-right m-b-5 font-18">
-                                        TWD 199
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="w-p-25 d-ib b_eaeaea product_item">
-                                <img src="png_recommend.png" class="w-p-100" />
-                                <p class="font-21 m-l-10 ">
-                                    兩用門後掛架
-                                </p>
-                                <p class="font-14 cl_95989A m-l-10">
-                                    靈活運用衣櫃門板空間增加5倍收納量
-                                </p>
-                                <div class="w-p-100 p-lr-10">
-                                    <a href="#" class="btn_buy font-14">
-                                        直購品
-                                    </a>
-                                    <p class="cl_F16EAA pull-right m-b-5 font-18">
-                                        TWD 199
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="w-p-25 d-ib b_eaeaea product_item">
-                                <img src="png_recommend.png" class="w-p-100" />
-                                <p class="font-21 m-l-10 ">
-                                    兩用門後掛架
-                                </p>
-                                <p class="font-14 cl_95989A m-l-10">
-                                    靈活運用衣櫃門板空間增加5倍收納量
-                                </p>
-                                <div class="w-p-100 p-lr-10">
-                                    <a href="#" class="btn_buy font-14">
-                                        直購品
-                                    </a>
-                                    <p class="cl_F16EAA pull-right m-b-5 font-18">
-                                        TWD 199
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="w-p-25 d-ib b_eaeaea product_item">
-                                <img src="png_recommend.png" class="w-p-100" />
-                                <p class="font-21 m-l-10 ">
-                                    兩用門後掛架
-                                </p>
-                                <p class="font-14 cl_95989A m-l-10">
-                                    靈活運用衣櫃門板空間增加5倍收納量
-                                </p>
-                                <div class="w-p-100 p-lr-10">
-                                    <a href="#" class="btn_buy font-14">
-                                        直購品
-                                    </a>
-                                    <p class="cl_F16EAA pull-right m-b-5 font-18">
-                                        TWD 199
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="w-p-25 d-ib b_eaeaea product_item">
-                                <img src="png_recommend.png" class="w-p-100" />
-                                <p class="font-21 m-l-10 ">
-                                    兩用門後掛架
-                                </p>
-                                <p class="font-14 cl_95989A m-l-10">
-                                    靈活運用衣櫃門板空間增加5倍收納量
-                                </p>
-                                <div class="w-p-100 p-lr-10">
-                                    <a href="#" class="btn_buy font-14">
-                                        直購品
-                                    </a>
-                                    <p class="cl_F16EAA pull-right m-b-5 font-18">
-                                        TWD 199
-                                    </p>
-                                </div>
-                            </div>
+                        </div>
 
                             <div class="w-p-100">
                                 <p class="d-ib font-26 ">嚐鮮預購</p>
@@ -322,57 +214,36 @@
                                 </p>
                             </div>
 
-                            <div class="w-p-25 d-ib b_eaeaea product_item">
-                                <img src="png_recommend.png" class="w-p-100" />
-                                <p class="font-21 m-l-10 ">
-                                    兩用門後掛架
-                                </p>
-                                <p class="font-14 cl_95989A m-l-10">
-                                    靈活運用衣櫃門板空間增加5倍收納量
-                                </p>
-                                <div class="w-p-100 p-lr-10">
-                                    <a href="#" class="btn_buy font-14">
-                                        直購品
-                                    </a>
-                                    <p class="cl_F16EAA pull-right m-b-5 font-18">
-                                        TWD 199
-                                    </p>
-                                </div>
-                            </div>
+                            <div class="product_list">
+                                <?php
+                                for($i=1; $i<=3; $i++){
+                                 ?>
+                                <div class="product_item_block">
+                                    <div class="product_item">
+                                        <img src="png_recommend.png" class="w-p-100" />
+                                        <p class="font-21 m-l-10 ">
+                                            兩用門後掛架
+                                        </p>
+                                        <p class="font-14 cl_95989A m-l-10">
+                                            靈活運用衣櫃門板空間增加5倍收納量
+                                        </p>
+                                        <div class="w-p-100 p-lr-10">
+                                            <a href="#" class="btn_buy font-14">
+                                                直購品
+                                            </a>
+                                            <p class="cl_F16EAA pull-right m-b-5 font-18">
+                                                TWD 199
+                                            </p>
+                                            <div class="clear">
 
-                            <div class="w-p-25 d-ib b_eaeaea product_item">
-                                <img src="png_recommend.png" class="w-p-100" />
-                                <p class="font-21 m-l-10 ">
-                                    兩用門後掛架
-                                </p>
-                                <p class="font-14 cl_95989A m-l-10">
-                                    靈活運用衣櫃門板空間增加5倍收納量
-                                </p>
-                                <div class="w-p-100 p-lr-10">
-                                    <a href="#" class="btn_buy font-14">
-                                        直購品
-                                    </a>
-                                    <p class="cl_F16EAA pull-right m-b-5 font-18">
-                                        TWD 199
-                                    </p>
-                                </div>
-                            </div>
+                                            </div>
+                                        </div>
 
-                            <div class="w-p-25 d-ib b_eaeaea product_item">
-                                <img src="png_recommend.png" class="w-p-100" />
-                                <p class="font-21 m-l-10 ">
-                                    兩用門後掛架
-                                </p>
-                                <p class="font-14 cl_95989A m-l-10">
-                                    靈活運用衣櫃門板空間增加5倍收納量
-                                </p>
-                                <div class="w-p-100 p-lr-10">
-                                    <a href="#" class="btn_buy font-14">
-                                        直購品
-                                    </a>
-                                    <p class="cl_F16EAA pull-right m-b-5 font-18">
-                                        TWD 199
-                                    </p>
+                                    </div>
+                                </div>
+                                <?php }?>
+                                <div class="clear">
+
                                 </div>
                             </div>
 
@@ -519,7 +390,7 @@
                     <p class="font-26 m-t-40 m-b-40 m-l-100">
                         最近瀏覽過商品
                     </p>
-                    <div class="d-fl-ai">
+                    <div class="d-fl-ai overflow-x">
                         <a href="#" class="d-ib m-r-20">
                             <span class="glyphicon glyphicon-chevron-left cl_95989A font-50" aria-hidden="true"></span>
                         </a>
@@ -556,17 +427,17 @@
                 <!-- </div> -->
             </section>
 
-            <footer class="site_width bg_f7f7f7" id="footer">
+            <section class="site_width bg_f7f7f7 page_bottom" >
                 <div class="content_width row">
                     <div class="row mb_center">
-                        <div class="customer_service col-md-3 col-sm-12 ">
+                        <div class="customer_service col-sm-3 ">
                           <h4>客服中心</h4>
                           <a href="#" class="d-bl">常見問與答</a>
                           <a href="#" class="d-bl">預購商品生產進度</a>
                           <a href="#" class="d-bl">聯絡我們</a>
                         </div>
 
-                        <div class="buy_cool_design col-sm-12 col-md-3">
+                        <div class="buy_cool_design col-sm-3">
                           <h4>購買好設計</h4>
                           <a href="#" class="d-bl">居家用品</a>
                           <a href="#" class="d-bl">辦公文具</a>
@@ -576,14 +447,14 @@
                           <a href="#" class="d-bl">嚐鮮預購</a>
                         </div>
 
-                        <div class="breaking_news col-sm-12 col-md-3">
+                        <div class="breaking_news col-sm-3">
                           <h4 >最新消息</h4>
                           <a href="#">
                               <img src='png_fb.png' />
                           </a>
                         </div>
 
-                        <div class="get_discount col-sm-12 col-md-3">
+                        <div class="get_discount col-sm-3">
                           <h4 class="">取得 Limit Style 優惠</h4>
                           <div class="">
                               <input type="text" name="search" placeholder="輸入 email 訂閱獨家優惠" class="form-control w-p-65 d-ib input_discount">
@@ -591,19 +462,22 @@
                           </div>
                         </div>
 
-                        <div class="col-sm-12 w-p-100 m-t-50 d-no mb_d_bl">
+                        <!-- <div class="col-sm-12 w-p-100 m-t-50 d-no mb_d_bl">
                             <p class="">
                                 © 2016 LimitStyle Inc. All Rights Reserved.    LimitStyle 由里米斯股份有限公司所經營
                                 <span class="d-bl"><a href="#" class="d-ib">服務條款</a> I <a href="#" class="d-ib">隱私權條款</a></span>
                             </p>
-                        </div>
+                        </div> -->
                     </div>
-                    <div class="d-bl w-p-100 cl_f7f7f7 m-t-50 mb_d_no">
-                        <p class="m-l-760">
-                            © 2016 LimitStyle Inc. All Rights Reserved.    LimitStyle 由里米斯股份有限公司所經營
-                            <span class="d-bl"><a href="#" class="d-ib">服務條款</a> I <a href="#" class="d-ib">隱私權條款</a></span>
-                        </p>
-                    </div>
+                </div>
+            </section>
+
+            <footer class="site_width bg_f7f7f7" id="footer">
+                <div class="d-bl w-p-100 cl_f7f7f7 m-t-50 ">
+                    <p class="m-l-760">
+                        © 2016 LimitStyle Inc. All Rights Reserved.    LimitStyle 由里米斯股份有限公司所經營
+                        <span class="d-bl"><a href="#" class="d-ib">服務條款</a> I <a href="#" class="d-ib">隱私權條款</a></span>
+                    </p>
                 </div>
             </footer>
         </div>

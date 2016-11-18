@@ -63,3 +63,24 @@
 }
 
 /*  product item */
+.product_item_block {
+  width: 33.3%;
+  float: left;
+  padding: 0 10px 20px;
+}
+
+.product_item_block .product_item {
+  width: 100%;
+  border: 1px solid #eaeaea;
+}
+
+.product_item_block .product_item .btn_buy {
+  border-radius: 16px;
+  border: 1px solid #63CCCA;
+  color: #63CCCA;
+  padding: 4px 12px;
+}
+
+.product_item_block .product_item .b_eaeaea {
+  border: 1px solid #eaeaea;
+}
