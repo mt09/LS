@@ -125,7 +125,7 @@
                         <h5 class="sidebar_title font-26 ">所有商品</h2>
                         <ul class="sidebar_list">
                             <li class="sidebar_item">
-                                <a href="#" class=" category_link">居家用品</a>
+                                <a href="#" class="category_link">居家用品</a>
                             </li>
                             <li class="sidebar_item">
                                 <a href="#" class="category_link m-t-10">辦公文具</a>

@@ -13286,6 +13286,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border: 1px solid #eaeaea;
 }
 
+@media screen and (max-width: 768px) {
+  .product_item_block {
+    width: 50%;
+  }
+}
 html, body {
   height: 100%;
 }
@@ -13314,14 +13319,14 @@ html .page_products .product_sidebar, body .page_products .product_sidebar {
   margin-left: 30px;
   float: left;
 }
-html .page_products .product_sidebar .sidebar_list .sidebar_item .catrgory_link, body .page_products .product_sidebar .sidebar_list .sidebar_item .catrgory_link {
+html .page_products .product_sidebar .sidebar_list .sidebar_item .category_link, body .page_products .product_sidebar .sidebar_list .sidebar_item .category_link {
   width: 135px;
   display: block;
   border-bottom: 1px solid #000;
   padding-bottom: 5px;
   padding-left: 5px;
 }
-html .page_products .product_sidebar .sidebar_list .sidebar_item .catrgory_link:hover, body .page_products .product_sidebar .sidebar_list .sidebar_item .catrgory_link:hover {
+html .page_products .product_sidebar .sidebar_list .sidebar_item .category_link:hover, body .page_products .product_sidebar .sidebar_list .sidebar_item .category_link:hover {
   color: #63CCCA;
 }
 html .page_products .product_cool_design, body .page_products .product_cool_design {
@@ -13421,6 +13426,10 @@ html footer, body footer {
 
   .mb_d_bl {
     display: block !important;
+  }
+
+  .page_products .product_cool_design {
+    padding-left: 20px !important;
   }
 
   .page_topics .topics_recommend {

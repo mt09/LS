@@ -84,3 +84,9 @@
 .product_item_block .product_item .b_eaeaea {
   border: 1px solid #eaeaea;
 }
+
+@media screen and (max-width: 768px) {
+  .product_item_block {
+    width: 50%;
+  }
+}
