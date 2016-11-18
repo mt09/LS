@@ -13358,6 +13358,9 @@ html footer .get_discount .btn_subscribe, body footer .get_discount .btn_subscri
   right: 4px;
   top: -2px;
 }
+html footer .m-l-760, body footer .m-l-760 {
+  margin-left: 760px;
+}
 
 .sidenav {
   height: 100%;
