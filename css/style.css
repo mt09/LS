@@ -13290,6 +13290,15 @@ html .page_products, body .page_products {
 html .page_products a, body .page_products a {
   color: #000;
 }
+html .page_products .product_sidebar, body .page_products .product_sidebar {
+  margin-left: 30px;
+  float: left;
+}
+html .page_products .product_cool_design, body .page_products .product_cool_design {
+  margin-top: 40px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
 html .page_products .product_link, body .page_products .product_link {
   width: 35%;
   display: block;
@@ -13307,14 +13316,10 @@ html .page_products .btn_buy, body .page_products .btn_buy {
   padding: 4px 12px;
 }
 html .page_products .b_eaeaea, body .page_products .b_eaeaea {
-  border: 1px solid #000;
+  border: 1px solid #eaeaea;
 }
 html .page_products .product_item, body .page_products .product_item {
-  margin: 10px;
-}
-html .page_products .product_preorder, body .page_products .product_preorder {
-  margin-right: 468px;
-  margin-top: 50px;
+  margin: 6px;
 }
 html .page_products .link_more, body .page_products .link_more {
   margin-right: 50px;
@@ -13340,8 +13345,14 @@ html .page_topics .topic_link, body .page_topics .topic_link {
   background: #63ccca;
   color: #fff;
   width: 80%;
-  margin-left: 30px;
   margin-bottom: 20px;
+}
+html .page_topics .topics_recommend, body .page_topics .topics_recommend {
+  width: 30%;
+  display: inline-block;
+  border: 1px solid #eaeaea;
+  text-align: center;
+  margin-right: 20px;
 }
 html footer .m-l-760, body footer .m-l-760 {
   margin-left: 760px;
@@ -13388,7 +13399,7 @@ html footer .mb_center, body footer .mb_center {
   transition: margin-left .5s;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 768px) {
   .mb_d_no {
     display: none !important;
   }
@@ -13401,7 +13412,32 @@ html footer .mb_center, body footer .mb_center {
     display: block !important;
   }
 
-  footer .d-fl-ai {
-    display: block;
+  .page_topics .topics_recommend {
+    padding-left: 20px;
+    width: 100% !important;
+    margin-bottom: 40px;
+  }
+
+  footer .customer_service {
+    line-height: 35px;
+    margin-bottom: 20px;
+  }
+  footer .buy_cool_design {
+    line-height: 35px;
+    margin-bottom: 20px;
+  }
+  footer .breaking_news {
+    line-height: 35px;
+    margin-bottom: 20px;
+  }
+  footer .get_discount {
+    line-height: 35px;
+    margin-bottom: 20px;
+  }
+  footer .get_discount .input_discount {
+    width: 50%;
+  }
+  footer .get_discount .btn_subscribe {
+    width: 25%;
   }
 }
